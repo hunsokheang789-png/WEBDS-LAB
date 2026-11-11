@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Science Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <div class="logo">📊</div>
+      <nav class="menu">
+        <a href="#" class="active">🏠 Dashboard</a>
+        <a href="#">📚 Courses</a>
+        <a href="#">🧪 Projects</a>
+        <a href="#">🗂 Datasets</a>
+        <a href="#">📓 Notebooks</a>
+        <a href="#">🏆 Results</a>
+        <a href="#">🔔 Notice</a>
+        <a href="#">🗓 Schedule</a>
+      </nav>
+      <a href="#" class="logout">🚪 Logout</a>
+    </div>
+    <main class="main">
+      <header class="topbar">
+        <input type="search" placeholder="Search">
+        <div class="user">
+          <span class="avatar"><img src="profile.jpg"></span>
+          <div>
+            <strong>Hun Sokheang</strong>
+            <small>2nd year</small>
+          </div>
+        </div>
+      </header>
+      <section class="banner">
+        <div>
+          <small>November 12, 2026</small>
+          <h1>Welcome back, Heang!</h1>
+          <p>Keep learning, keep coding, keep exploring data.</p>
+        </div>
+        <div class="banner__icons">🐍 📈 🤖</div>
+      </section>
+      <div class="grid">
+        <div class="left">
+          <h2>My Progress</h2>
+          <section class="stats">
+            <div class="stat">
+              <span class="stat__icon">⏱️</span>
+              <strong>12 h</strong>
+              <small>Hours Studied</small>
+            </div>
+            <div class="stat stat--highlight">
+              <span class="stat__icon">🧪</span>
+              <strong>5</strong>
+              <small>Projects Done</small>
+            </div>
+            <div class="stat">
+              <span class="stat__icon">🏅</span>
+              <strong>3</strong>
+              <small>Badges</small>
+            </div>
+          </section>
+          <div class="title-row">
+            <h2>Enrolled Courses</h2>
+            <a href="#">See all</a>
+          </div>
+          <section class="courses">
+            <article class="course course--highlight">
+              <div>
+                <h3>Python for Data Science</h3>
+                <div class="progress"><i style="width:75%"></i></div>
+                <small>75% completed</small>
+                <button>View</button>
+              </div>
+              <span class="course__icon">🐍</span>
+            </article>
+
+            <div class="course">
+              <div>
+                <h3>Machine Learning Basics</h3>
+                <div class="progress"><i style="width:40%"></i></div>
+                <small>40% completed</small>
+                <button>View</button>
+              </div>
+              <span class="course__icon">🤖</span>
+            </div>
+          </section>
+        </div>
+        <div class="right">
+          <h2>Course Instructors</h2>
+          <div class="instructors">
+            <div class="instructor">
+              <span class="avatar"><img src="Instructor1.png"></span>
+              <small>Mr. Hok Tin</small>
+            </div>
+            <div class="instructor">
+              <span class="avatar"><img src="Instructor2.png"></span>
+            <small>Mr. Hok Socheatra</small>
+            </div>
+          </div>
+          <div class="title-row">
+            <h2>Daily Notice</h2>
+            <a href="#">See all</a>
+          </div>
+          <div class="notice-box">
+            <div class="notice">
+              <h4>Project deadline</h4>
+              <p>Submit your data cleaning notebook before Friday.</p>
+              <a href="#">See more</a>
+            </div>
+            <div class="notice">
+              <h4>Statistics quiz</h4>
+              <p>Quiz on probability and distributions next Monday.</p>
+              <a href="#">See more</a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </main>
+  </div>
+</body>
+</html>
