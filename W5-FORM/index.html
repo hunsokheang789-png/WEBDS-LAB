@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2 Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Create Account</h2>
+        <div class="form">
+            <div class="row">
+                <div class="field">
+                    <label>First name *</label>
+                    <input type="text" placeholder="enter your first name">
+                </div>
+                <div class="field">
+                    <label>Last name</label>
+                    <input type="text" placeholder="enter your last name">
+                </div>
+            </div>
+            <div class="field">
+                <label>Email*</label>
+                <input type="text" placeholder="enter your email">
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label>Password *</label>
+                    <input type="text" placeholder="enter your password">
+                </div>
+                <div class="field">
+                    <label>Confirm Password *</label>
+                    <input type="text" placeholder="enter your password again">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <div class="inline">
+                        <label>Gender:</label>
+                        <label><input type="radio">Male</label>
+                        <label><input type="radio">Female</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Hobbies</label>
+                    <div class="inline">
+                        <label><input type="checkbox">Music</label>
+                        <label><input type="checkbox">Sports</label>
+                        <label><input type="checkbox">Travel</label>
+                        <label><input type="checkbox">Movies</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label>Source of Income</label>
+                    <select>
+                        <option>Employed</option>
+                        <option>Manager</option>
+                        <option>Sales</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <div class="between">
+                        <label>Income</label>
+                        <span class="badge">20K</span>
+                    </div>
+                    <input type="range" value="20">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label>Upload Profile Picture</label>
+                    <input type="file">
+                </div>
+                <div class="field">
+                    <label>Age</label>
+                    <input type="number" value="20">
+                </div>
+            </div>
+            <div class="field">
+                <label>Bio</label>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="footer">
+                <button type="submit">Create</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
